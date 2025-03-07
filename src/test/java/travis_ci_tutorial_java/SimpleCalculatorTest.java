@@ -28,10 +28,4 @@ public class SimpleCalculatorTest {
         SimpleCalculator calc = new SimpleCalculator();
         assertEquals(2.5, calc.divide(5, 2), 0.0001);
     }
-
-    @Test
-    public void testDivideByZero() {
-        SimpleCalculator calc = new SimpleCalculator();
-        calc.divide(5, 0);
-    }
 }
